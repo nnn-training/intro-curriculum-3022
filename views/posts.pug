@@ -15,5 +15,6 @@ html(lang="ja")
     h2 投稿一覧
     each post in posts
       p 送信日時: #{post.createdAt}
+      p 投稿者: #{post.postedBy}
       p #{post.content}
       hr
